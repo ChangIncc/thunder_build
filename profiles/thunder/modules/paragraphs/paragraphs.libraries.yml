@@ -1,0 +1,30 @@
+drupal.paragraphs.admin:
+  version: VERSION
+  dependencies:
+      - core/jquery
+      - core/drupal
+      - core/drupalSettings
+      - core/jquery.once
+      - core/jquery.form
+      - core/drupal.ajax
+      - core/drupal.dropbutton
+  css:
+    theme:
+      css/paragraphs.admin.css: {}
+
+drupal.paragraphs.widget:
+  css:
+    theme:
+      css/paragraphs.widget.css: {}
+
+drupal.paragraphs.modal:
+  js:
+    js/paragraphs.modal.js: {}
+  css:
+    theme:
+      css/paragraphs.modal.css: {}
+  dependencies:
+    - core/drupal.dialog.ajax
+    - core/jquery.once
+    - core/jquery.ui.tabs
+    - core/drupal

@@ -1,0 +1,16 @@
+name: Thunder AMP
+type: theme
+base theme: amptheme
+description: An AMP subtheme for Thunder.
+package: Custom
+# core: 8.x
+regions:
+  header: Header
+  content: Content
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2017-08-08
+version: '8.x-2.6'
+core: '8.x'
+project: 'thunder'
+datestamp: 1502197768

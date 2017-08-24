@@ -1,0 +1,14 @@
+drupal.access_unpublished.admin:
+  version: VERSION
+  css:
+    theme:
+      css/access_unpublished.admin.css: {}
+  js:
+    js/access_unpublished.admin.js: {}
+  dependencies:
+      - access_unpublished/drupal.access_unpublished.clipboard
+
+drupal.access_unpublished.clipboard:
+  version: VERSION
+  js:
+    js/clipboard.js: {}

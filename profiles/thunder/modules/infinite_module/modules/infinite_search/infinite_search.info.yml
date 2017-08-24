@@ -1,0 +1,18 @@
+name: Infinite Search
+type: module
+description: Provide core search integration for Infinite.
+package: Infinite
+core: 8.x
+version: 8.x-1.x-dev
+dependencies:
+  - search
+  - views
+  - views_load_more
+  - infinite_base
+config_devel:
+  - views.view.infinite_search
+
+# Information added by drush on 2017-03-20
+version: '8.x-1.0-beta6'
+project: 'infinite_module'
+datestamp: 1490000210

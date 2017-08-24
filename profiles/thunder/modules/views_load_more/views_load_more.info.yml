@@ -1,0 +1,12 @@
+name: Views Load More
+type: module
+description: 'A pager plugin for views. Gives users the option to add a "more" button to a view and have the results appended to existing results being displayed.'
+package: Views
+core: 8.x
+dependencies:
+  - views
+
+# Information added by drush on 2015-05-01
+version: '8.x-1.x-dev'
+project: 'views_load_more'
+datestamp: 1430514574

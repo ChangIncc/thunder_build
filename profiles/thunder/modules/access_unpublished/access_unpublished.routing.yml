@@ -1,0 +1,9 @@
+access_unpublished.settings_form:
+  path: '/admin/config/content/access_unpublished'
+  defaults:
+    _form: '\Drupal\access_unpublished\Form\SettingsForm'
+    _title: 'Access unpublished'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE

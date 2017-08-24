@@ -1,0 +1,16 @@
+name: 'Thunder Riddle integration'
+description: 'Provide an integration with riddle marketplace.'
+type: module
+# core: 8.x
+dependencies:
+  - views:views
+  - paragraphs:paragraphs
+  - entity_browser:entity_browser
+  - riddle_marketplace:media_riddle_marketplace
+package: Thunder
+
+# Information added by Drupal.org packaging script on 2017-08-08
+version: '8.x-2.6'
+core: '8.x'
+project: 'thunder'
+datestamp: 1502197768

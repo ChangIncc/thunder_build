@@ -1,0 +1,9 @@
+name: Libraries
+type: module
+description: Allows version-dependent and shared usage of external libraries.
+core: 8.x
+
+# Information added by drush on 2017-03-15
+version: '8.x-3.x-dev'
+project: 'libraries'
+datestamp: 1489597448

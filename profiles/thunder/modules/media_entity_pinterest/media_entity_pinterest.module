@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for media_entity_pinterest module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function media_entity_pinterest_theme() {
+  return [
+    'media_entity_pinterest_board' => [
+      'variables' => ['path' => NULL, 'attributes' => []],
+    ],
+    'media_entity_pinterest_pin' => [
+      'variables' => ['path' => NULL, 'attributes' => []],
+    ],
+    'media_entity_pinterest_profile' => [
+      'variables' => ['path' => NULL, 'attributes' => []],
+    ],
+  ];
+}

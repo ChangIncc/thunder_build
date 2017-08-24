@@ -1,0 +1,12 @@
+name: 'Access unpublished'
+type: module
+description: 'Grants access to view unpublished content to anyone who has a unique URL and appropriate permissions.'
+package: Content
+# core: 8.x
+configure: 'access_unpublished.settings_form'
+
+# Information added by Drupal.org packaging script on 2017-05-23
+version: '8.x-1.0-alpha3'
+core: '8.x'
+project: 'access_unpublished'
+datestamp: 1495550886

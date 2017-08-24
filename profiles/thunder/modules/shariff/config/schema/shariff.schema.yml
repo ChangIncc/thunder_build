@@ -1,0 +1,89 @@
+shariff.settings:
+  type: config_object
+  label: 'Shariff settings'
+  mapping:
+    shariff_services:
+      type: mapping
+      label: 'Services'
+      mapping:
+        twitter:
+          type: string
+          label: 'twitter'
+        facebook:
+          type: string
+          label: 'facebook'
+        googleplus:
+          type: string
+          label: 'googleplus'
+        linkedin:
+          type: string
+          label: 'linkedin'
+        pinterest:
+          type: string
+          label: 'pinterest'
+        xing:
+          type: string
+          label: 'xing'
+        whatsapp:
+          type: string
+          label: 'whatsapp'
+        addthis:
+          type: string
+          label: 'addthis'
+        tumblr:
+          type: string
+          label: 'tumblr'
+        flattr:
+          type: string
+          label: 'flattr'
+        reddit:
+          type: string
+          label: 'reddit'
+        stumbleupon:
+          type: string
+          label: 'stumbleupon'
+        threema:
+          type: string
+          label: 'threema'
+        mail:
+          type: string
+          label: 'mail'
+        info:
+          type: string
+          label: 'info'
+    shariff_theme:
+      type: string
+      label: 'Shariff layout'
+    shariff_css:
+      type: string
+      label: 'CSS variant'
+    shariff_orientation:
+      type: string
+      label: 'Orientation of the buttons'
+    shariff_twitter_via:
+      type: string
+      label: 'Twitter Via User'
+    shariff_mail_url:
+      type: string
+      label: 'Mail link'
+    shariff_mail_subject:
+      type: string
+      label: 'Mail subject'
+    shariff_mail_body:
+      type: string
+      label: 'Mail body'
+    shariff_referrer_track:
+      type: string
+      label: 'Referrer track code'
+    shariff_backend_url:
+      type: string
+      label: 'Backend URL'
+    shariff_flattr_category:
+      type: string
+      label: 'Flattr category'
+    shariff_flattr_user:
+      type: string
+      label: 'Flattr user'
+    shariff_media_url:
+      type: string
+      label: 'Media url'

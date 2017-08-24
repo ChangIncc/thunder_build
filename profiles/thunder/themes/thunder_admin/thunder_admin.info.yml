@@ -1,0 +1,107 @@
+name: Thunder Admin
+type: theme
+# core: 8.x
+base theme: classy
+description: 'Administration theme for the Thunder Distribution that extends and modifies Sevens styles for authoring UX and integrated look and feel of the contributed modules used in the distribution.'
+
+libraries:
+  - thunder_admin/global-styling
+
+libraries-override:
+# core and vendor overrides
+  core/drupal.vertical-tabs:
+    css:
+      component:
+        misc/vertical-tabs.css: false
+  core/jquery.ui:
+    css:
+      theme:
+        assets/vendor/jquery.ui/themes/base/theme.css: false
+  core/jquery.ui.dialog:
+    css:
+      component:
+        assets/vendor/jquery.ui/themes/base/dialog.css: false
+# core module (stable) overrides
+  node/drupal.node:
+    css:
+      layout:
+        /core/themes/stable/css/node/node.module.css: false
+  node/form:
+    css:
+      layout:
+        /core/themes/stable/css/node/node.module.css: false
+  toolbar/toolbar:
+    css:
+      component:
+        /core/themes/stable/css/toolbar/toolbar.module.css: css/components/toolbar.module.css
+      theme:
+        /core/themes/stable/css/toolbar/toolbar.theme.css: css/components/toolbar.theme.css
+        /core/themes/stable/css/toolbar/toolbar.icons.theme.css: css/components/toolbar.icons.theme.css
+  toolbar/toolbar.menu:
+    css:
+      state:
+        /core/themes/stable/css/toolbar/toolbar.menu.css: css/components/toolbar.menu.css
+# core base theme (classy) overrides
+  classy/dialog:
+    thunder_admin/drupal.dialog
+  classy/base:
+    css:
+      component:
+        css/components/form.css: false
+        css/components/tabledrag.css: false
+# contrib module overrides
+  admin_toolbar/toolbar.tree:
+    css:
+      theme:
+        css/admin.toolbar.css: css/components/admin.toolbar.css
+  entity_browser/entity_browser:
+    css:
+      theme:
+        css/entity_browser.entity_browser.css: css/components/entity_browser.entity_browser.css
+  entity_browser/tabs:
+      css:
+        component:
+          css/entity_browser.tabs.css: css/components/entity_browser.tabs.css
+# distribution module overrides (needed for backwards compatibility)
+  thunder_article/article_form_styling:
+    css:
+      theme:
+        css/article-form.css: false
+  thunder_media/entity_browser_view:
+    css:
+      theme:
+        css/media_entity_browser.view.css: css/components/media_entity_browser.view.css
+
+libraries-extend:
+  core/ckeditor:
+    - thunder_admin/ckeditor-dialog
+  core/drupal.vertical-tabs:
+    - thunder_admin/vertical-tabs
+  core/jquery.ui:
+    - thunder_admin/jquery.ui
+  tour/tour-styling:
+    - thunder_admin/tour-styling
+  paragraphs/drupal.paragraphs.admin:
+    - thunder_admin/paragraphs.admin
+  dropzonejs/widget:
+    - thunder_admin/dropzonejs.widget
+
+quickedit_stylesheets:
+  - css/components/quickedit.css
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  highlighted: Highlighted
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+
+# Information added by Drupal.org packaging script on 2017-08-07
+version: '8.x-2.0-beta4'
+core: '8.x'
+project: 'thunder_admin'
+datestamp: 1502105057

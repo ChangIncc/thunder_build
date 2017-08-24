@@ -1,0 +1,16 @@
+name: 'Thunder Facebook instant articles'
+description: 'Provide an integration with facebook instant articles.'
+type: module
+# core: 8.x
+dependencies:
+  - thunder:thunder_article
+  - thunder:thunder_paragraphs
+  - thunder:thunder_media
+  - fb_instant_articles:fb_instant_articles
+package: Thunder
+
+# Information added by Drupal.org packaging script on 2017-08-08
+version: '8.x-2.6'
+core: '8.x'
+project: 'thunder'
+datestamp: 1502197768

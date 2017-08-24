@@ -1,0 +1,15 @@
+name: 'Facebook instant articles'
+type: module
+description: 'FB Instant articles RSS feed generator for integration into the FB IA program'
+core: 8.x
+package: Facebook
+features: true
+dependencies:
+    0: node
+    1: views
+    2: user
+
+# Information added by drush on 2016-09-07
+version: '8.x-1.x-dev'
+project: 'fb_instant_articles'
+datestamp: 1473232874

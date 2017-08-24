@@ -1,0 +1,5 @@
+riddle_marketplace:
+  token: ''
+  api_url: 'https://www.riddle.com/apiv3/item/token/%%TOKEN%%?client=d8'
+  url: 'https://www.riddle.com/a/%%RIDDLE_UID%%'
+  empty_title_prefix: 'Riddle '

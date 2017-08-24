@@ -1,0 +1,13 @@
+name: 'Revenue sharing basic (old)'
+type: module
+description: 'Revenue sharing for the Google Adsense module'
+package: Adsense Deprecated
+# core: 7.x
+dependencies:
+  - adsense
+
+# Information added by Drupal.org packaging script on 2017-04-23
+version: '8.x-1.0'
+core: '8.x'
+project: 'adsense'
+datestamp: 1492959869

@@ -1,0 +1,11 @@
+name: 'Harbourmaster SSO'
+description: 'Integrates Harbourmaster providing a single sign-on solution for Drupal.'
+package: Harbourmaster
+configure: harbourmaster.admin_config_page
+type: module
+core: 8.x
+
+# Information added by drush on 2016-09-14
+version: '8.1.1-beta4'
+project: 'harbourmaster'
+datestamp: 1473861108

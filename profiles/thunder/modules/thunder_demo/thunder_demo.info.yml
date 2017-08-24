@@ -1,0 +1,17 @@
+name: Thunder Demo
+type: module
+description: Provide demo content.
+package: Thunder
+# core: 8.x
+dependencies:
+  - better_normalizers:better_normalizers
+  - default_content:default_content
+  - drupal:tour
+  - drupal:help
+  - drupal:rest
+
+# Information added by Drupal.org packaging script on 2017-08-08
+version: '8.x-2.6'
+core: '8.x'
+project: 'thunder'
+datestamp: 1502197768

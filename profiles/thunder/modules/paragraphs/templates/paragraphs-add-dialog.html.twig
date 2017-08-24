@@ -1,0 +1,28 @@
+{#
+/**
+ * @file
+ * Default theme implementation of modal add paragraph dialog template.
+ *
+ * This template for dialog will be handled in javascript, where data-[key]="[attribute]"
+ * attributes will be replaced with data provided for that key. New attribute will be
+ * created like follows: [attribute]="[value-for-key]".
+ *
+ * Following classes have custom use:
+ *   - paragraphs-add-dialog-template - is used to clone dialog.
+ *   - paragraphs-add-dialog-row-template - is used to clone paragraph type rows.
+ *
+ * All listed classes will be renamed in final created dialog with "-template" sufix and
+ * they can be used with that name for theming.
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="paragraphs-add-dialog-template" title="{{ 'Add paragraph'|t }}" style="display: none;">
+    <ul class="paragraphs-add-dialog-list">
+        <li class="paragraphs-add-dialog-row-template">
+            <button class="paragraphs-add-type-trigger-element button" data-type-name="content" data-type="data-type"
+                    data-delta="data-delta"></button>
+        </li>
+    </ul>
+</div>
